@@ -12,7 +12,7 @@ Create it in your own way and use the tools you are most comfortable with. Show 
 
 ## Challenge Description
 
-### It's a matter of survival
+### It's a Matter of Survival
 
 The human population is quickly overwhelming the Earth's resources. We must find a solution to control the exponential growth of human beings.
 The Governments of the world, along with the most intelligent people on the planet, have found a solution.
