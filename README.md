@@ -3,7 +3,7 @@
 For us, it's not all about an outstanding CV or a long list of qualifications. We are far more interested in your approach when faced with a concrete challenge. What is your way of thinking? How do you tackle the problem? Which tools do you choose?
 
 In order to gauge these qualities, we have created a challenge for you to complete. This is a simplified case which illustrates the kinds of situations we have to deal with on a daily basis.
-This challenge is an opportunity to demonstrate your capabilities and to show us your coding craftsmanship. 
+This challenge is an opportunity to demonstrate your capabilities and to show us your coding craftsmanship.
 
 There are no time limitations, but our suggestion is that you spend no more than a few hours completing the challenge.
 We are not after a bullet-proof solution. What is important is a clean, maintainable and intuitive result.
@@ -47,7 +47,7 @@ The system will store the Game configuration and will keep it until an adversary
 
 #### Combat
 
-Once the system detects a match it executes the competition and stores the results.
+Once the system detects a _match_ it executes the competition and stores the results.
 
 #### Results
 
@@ -69,7 +69,7 @@ Please don't get caught up trying to implement the perfect solution, we are inte
 
 The backend must be Ruby. The frameworks, gems, and databases are all up to you.
 
-For the frontend, we appreciate if it looks human friendly, but it is not necessary. (There are a lot of OpenSource/Free templates and HTML/CSS frameworks that do a good job.)
+For the frontend, we appreciate if it looks human friendly, but it is not necessary to be fancy. (There are a lot of OpenSource/Free templates and HTML/CSS frameworks that do a good job.)
 
 ### What We Assess
 
