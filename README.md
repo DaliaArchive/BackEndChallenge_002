@@ -70,6 +70,7 @@ Please don't get caught up trying to implement the perfect solution, we are inte
 ### Programming Requirements
 
 The backend must be Ruby. The frameworks, gems, and databases are all up to you.
+
 For the frontend, we appreciate if it looks human friendly, but it is not necessary. (There are a lot of OpenSource/Free templates and HTML/CSS frameworks that do a good job.)
 
 ### What We Assess
