@@ -1,16 +1,16 @@
 # BackEnd Challenge 002
 
-For us, it is not all about an outstanding CV or a long list of qualifications. We are far more interested in your approach when faced with a concrete challenge. What is your way of thinking? How do you tackle the problem? Which tools do you choose?
+For us, it's not all about an outstanding CV or a long list of qualifications. We are far more interested in your approach when faced with a concrete challenge. What is your way of thinking? How do you tackle the problem? Which tools do you choose?
 
-In order to gauge these qualities, we would like you to complete the following challenge. This is a simplified case which illustrates the kinds of situations we have to deal with on a daily basis.
+In order to gauge these qualities, we have created a challenge for you to complete. This is a simplified case which illustrates the kinds of situations we have to deal with on a daily basis.
 
 This challenge is an opportunity to demonstrate your capabilities and to show us your coding craftsmanship. 
 
 There are no time limitations, but our suggestion is that you spend no more than a few hours completing the challenge.
 
-We are not after a bullet-proof solution. What is important is an elegant, clean, maintainable and intuitive result.
+We are not after a bullet-proof solution. What is important is a clean, maintainable and intuitive result.
 
-Create it in your own way and use the tools you are most comfortable with. Show us your skills.
+Create it in your own way and use the tools you are most comfortable with. Show us your skills!
 
 ## Challenge Description
 
