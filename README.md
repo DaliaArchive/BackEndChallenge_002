@@ -17,7 +17,8 @@ Create it in your own way and use the tools you are most comfortable with. Show 
 ### It's a matter of survival
 
 The human population is quickly overwhelming the Earth's resources. We must find a solution to control the exponential growth of human beings.
-The Governments of the world along with the most intelligent people on the planet have found a solution.
+The Governments of the world, along with the most intelligent people on the planet, have found a solution.
+
 Every person, upon reaching their twentieth birthday, has to compete in a live or die fight against another fellow.
 The competition has been designed using a systematic process to select the most skilled individuals of our society based on their intelligence, agility and strength.
 
