@@ -7,7 +7,9 @@ In order to gauge these qualities, we would like you to complete the following c
 This challenge is an opportunity to demonstrate your capabilities and to show us your coding craftsmanship. 
 
 There are no time limitations, but our suggestion is that you spend no more than a few hours completing the challenge.
-We are not after a bullet-proof solution, what is important is an elegant, clean, maintainable and intuitive result.
+
+We are not after a bullet-proof solution. What is important is an elegant, clean, maintainable and intuitive result.
+
 Create it in your own way and use the tools you are most comfortable with. Show us your skills.
 
 ## Challenge Description
