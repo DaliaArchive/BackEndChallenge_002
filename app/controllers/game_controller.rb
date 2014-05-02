@@ -31,7 +31,7 @@ class GameController < ApplicationController
       @current_player = Player.find(params[:player_id])
       @current_player_moves_arr = @current_player.moves.split(",")
       adversary = @game.players.where.not(:id => params[:player_id]).first
-      if adversary
+      if !adversary.nil?
         game_combat(adversary)
       end
       js :game_id => @game.id, :type => params[:is_waiting], :faye_path => "#{FAYE_PATH[:url]}/faye"
