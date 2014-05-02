@@ -34,25 +34,7 @@ class GameController < ApplicationController
     adversary = @game.players.where.not(:id => params[:player_id]).first
     
     if adversary
-      @adversary_moves_arr = adversary.moves.split(",")
-      @result = []
-      @current_player_moves_arr.each_with_index do |move, index|
-        @result << GAME_RULE["#{move}#{@adversary_moves_arr[index]}"]
-      end
-
-      @win = @result.select {|p| p == "W"}
-      @loose = @result.select {|p| p == "L"}
-      
-      @status = true if @win.size > @loose.size
-      if @win.size == @loose.size
-        @status = "Tie"
-      elsif @win.size > @loose.size
-        @status = "Win"
-      else
-        @status = "Loose"
-      end
-
-      send_to_faye
+      game_combat(adversary)
     end
     if @game 
       js :game_id => @game.id, :type => params[:is_waiting], :faye_path => "#{FAYE_PATH[:url]}/faye"
@@ -60,7 +42,28 @@ class GameController < ApplicationController
       redirect_to :action => "new"
     end
   end
+  
   private
+  def game_combat(adversary)
+    @adversary_moves_arr = adversary.moves.split(",")
+    @result = []
+    @current_player_moves_arr.each_with_index do |move, index|
+      @result << GAME_RULE["#{move}#{@adversary_moves_arr[index]}"]
+    end
+
+    @win = @result.select {|p| p == "W"}
+    @loose = @result.select {|p| p == "L"}
+      
+    @status = true if @win.size > @loose.size
+    if @win.size == @loose.size
+      @status = "Tie"
+    elsif @win.size > @loose.size
+      @status = "Win"
+    else
+      @status = "Loose"
+    end
+    send_to_faye
+  end
   def send_to_faye
     message = {
       :channel => "/game/#{@game.id}/combat",
