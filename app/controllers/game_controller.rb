@@ -1,5 +1,4 @@
 class GameController < ApplicationController
-  require 'net/http'
   def index
   end
   def new
