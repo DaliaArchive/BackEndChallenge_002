@@ -63,7 +63,7 @@ class GameController < ApplicationController
       Net::HTTP.post_form(uri, :message => message.to_json)
     end
     if @game 
-      js :game_id => @game.id, :type => params[:is_waiting], :faye_path => "#{FAYE_PATH[:url]}/faye"#, :player => @player.name
+      js :game_id => @game.id, :type => params[:is_waiting], :faye_path => "#{FAYE_PATH[:url]}/faye"
     else
       redirect_to :action => "new"
     end

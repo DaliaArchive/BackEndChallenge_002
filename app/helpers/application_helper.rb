@@ -2,7 +2,7 @@ module ApplicationHelper
   def game_acts
     all_acts = ""
     GameAct.all.find_each do |act|
-      all_acts = "#{all_acts}<button type='button' class='game_acts' data-name='#{act.name}' data-act='#{act.short_name}'>#{act.name}</button>"
+      all_acts = "#{all_acts}<button type='button' class='game_acts' data-name='#{act.name}'>#{act.name}</button>"
     end
     raw all_acts
   end

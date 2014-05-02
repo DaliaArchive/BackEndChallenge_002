@@ -42034,3 +42034,3669 @@ Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:09
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:09 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+Processing by GameController#new as HTML
+  [1m[36mGameAct Load (0.3ms)[0m  [1mSELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000[0m
+  Rendered game/new.html.erb within layouts/application (2.0ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:26:49 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5IY2QPpwhN6w3qQ1SvqoxXun62E7c+oNDLvNwQk2y4s=", "game"=>{"name"=>"fc4851f537a37c82296a"}, "adversary_game"=>"", "player_moves"=>"R,R,R,R,R,R,P,P,P,P,"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `games` (`created_at`, `name`, `updated_at`) VALUES ('2014-05-02 09:26:55', 'fc4851f537a37c82296a', '2014-05-02 09:26:55')[0m
+  [1m[35m (30.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:26:55', 92, '8df751761ac0766a5cbe', '2014-05-02 09:26:55')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:26:55', 'R,R,R,R,R,R,P,P,P,P,', 147, '2014-05-02 09:26:55')[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/game/92?is_waiting=true&player_id=147
+Completed 302 Found in 38ms (ActiveRecord: 31.9ms)
+
+
+Started GET "/game/92?is_waiting=true&player_id=147" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"true", "player_id"=>"147", "id"=>"92"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`id` = 92 LIMIT 1[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`id` = 147 LIMIT 1
+  [1m[36mPlayerMove Load (0.3ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 147 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`game_id` = 92 AND (`players`.`id` != 147) ORDER BY `players`.`id` ASC LIMIT 1
+  Rendered game/shared/_current_player.html.erb (0.1ms)
+  Rendered game/shared/_adversary_player_case1.html.erb (0.0ms)
+  Rendered game/show.html.erb within layouts/application (1.3ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 10.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:26:55 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+Processing by GameController#new as HTML
+  [1m[36mGameAct Load (0.3ms)[0m  [1mSELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000[0m
+  Rendered game/new.html.erb within layouts/application (1.7ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:00 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeqvPZT2hSLhWCOf+giqrxAMxVTth5gIV2O+ujAkt48=", "game"=>{"name"=>"bba0e06f84ef3d9147be"}, "adversary_game"=>"fc4851f537a37c82296a", "player_moves"=>"S,S,S,S,S,S,P,P,P,P,"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`name` = 'fc4851f537a37c82296a' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:27:10', 92, 'b131926427af8f9b282f', '2014-05-02 09:27:10')
+  [1m[36m (15.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:27:10', 'S,S,S,S,S,S,P,P,P,P,', 148, '2014-05-02 09:27:10')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/game/92?is_waiting=false&player_id=148
+Completed 302 Found in 22ms (ActiveRecord: 17.2ms)
+
+
+Started GET "/game/92?is_waiting=false&player_id=148" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"false", "player_id"=>"148", "id"=>"92"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`id` = 92 LIMIT 1[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`id` = 148 LIMIT 1
+  [1m[36mPlayerMove Load (0.3ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 148 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`game_id` = 92 AND (`players`.`id` != 148) ORDER BY `players`.`id` ASC LIMIT 1
+  [1m[36mPlayerMove Load (0.2ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 147 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  Rendered game/shared/_current_player.html.erb (0.2ms)
+  Rendered game/shared/_adversary_player_case2.html.erb (0.2ms)
+  Rendered game/show.html.erb within layouts/application (1.5ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 10.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:27:10 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+Processing by GameController#new as HTML
+  [1m[35mGameAct Load (0.2ms)[0m  SELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000
+  Rendered game/new.html.erb within layouts/application (42.9ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 180ms (Views: 166.9ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:31:41 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:31:46 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5IY2QPpwhN6w3qQ1SvqoxXun62E7c+oNDLvNwQk2y4s=", "game"=>{"name"=>"8f1da22cc8033eb39ee7"}, "adversary_game"=>"", "player_moves"=>"R,R,R,R,R,P,P,P,P,P,"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `games` (`created_at`, `name`, `updated_at`) VALUES ('2014-05-02 09:31:46', '8f1da22cc8033eb39ee7', '2014-05-02 09:31:46')
+  [1m[36m (51.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:31:46', 93, '72f2e1615ea3bf58b538', '2014-05-02 09:31:46')[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:31:46', 'R,R,R,R,R,P,P,P,P,P,', 149, '2014-05-02 09:31:46')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/game/93?is_waiting=true&player_id=149
+Completed 302 Found in 115ms (ActiveRecord: 87.7ms)
+
+
+Started GET "/game/93?is_waiting=true&player_id=149" for 127.0.0.1 at 2014-05-02 16:31:46 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"true", "player_id"=>"149", "id"=>"93"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`id` = 93 LIMIT 1
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`id` = 149 LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.2ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 149 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`game_id` = 93 AND (`players`.`id` != 149) ORDER BY `players`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 6ms
+
+NameError (uninitialized constant GameController::GAME_MOVE):
+  app/controllers/game_controller.rb:66:in `show'
+
+
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:32:03 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GameController#new as HTML
+  [1m[35mGameAct Load (0.3ms)[0m  SELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000
+  Rendered game/new.html.erb within layouts/application (70.3ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.6ms)
+Completed 200 OK in 390ms (Views: 247.6ms | ActiveRecord: 64.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:04 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:04 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:04 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:04 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:04 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:32:05 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5IY2QPpwhN6w3qQ1SvqoxXun62E7c+oNDLvNwQk2y4s=", "game"=>{"name"=>"36525ab7cefa3411be85"}, "adversary_game"=>"", "player_moves"=>"R,R,R,R,R,R,P,P,P,P,"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (14.1ms)[0m  INSERT INTO `games` (`created_at`, `name`, `updated_at`) VALUES ('2014-05-02 09:32:10', '36525ab7cefa3411be85', '2014-05-02 09:32:10')
+  [1m[36m (15.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:32:10', 94, '338107e32ba5d27b6e68', '2014-05-02 09:32:10')[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:32:10', 'R,R,R,R,R,R,P,P,P,P,', 150, '2014-05-02 09:32:10')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/game/94?is_waiting=true&player_id=150
+Completed 302 Found in 175ms (ActiveRecord: 65.2ms)
+
+
+Started GET "/game/94?is_waiting=true&player_id=150" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"true", "player_id"=>"150", "id"=>"94"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`id` = 94 LIMIT 1
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`id` = 150 LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.4ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 150 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`game_id` = 94 AND (`players`.`id` != 150) ORDER BY `players`.`id` ASC LIMIT 1[0m
+  Rendered game/shared/_current_player.html.erb (0.9ms)
+  Rendered game/shared/_adversary_player_case1.html.erb (0.5ms)
+  Rendered game/show.html.erb within layouts/application (3.6ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 13.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:32:10 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+Processing by GameController#new as HTML
+  [1m[35mGameAct Load (0.3ms)[0m  SELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000
+  Rendered game/new.html.erb within layouts/application (1.9ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:14 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeqvPZT2hSLhWCOf+giqrxAMxVTth5gIV2O+ujAkt48=", "game"=>{"name"=>"fa12d1217d2610bb36c0"}, "adversary_game"=>"36525ab7cefa3411be85", "player_moves"=>"R,R,R,P,P,P,P,P,P,P,"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`name` = '36525ab7cefa3411be85' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:32:20', 94, '508a910355edb197987c', '2014-05-02 09:32:20')[0m
+  [1m[35m (79.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:32:20', 'R,R,R,P,P,P,P,P,P,P,', 151, '2014-05-02 09:32:20')
+  [1m[36m (67.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/game/94?is_waiting=false&player_id=151
+Completed 302 Found in 155ms (ActiveRecord: 147.9ms)
+
+
+Started GET "/game/94?is_waiting=false&player_id=151" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"false", "player_id"=>"151", "id"=>"94"}
+  [1m[35mGame Load (0.5ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`id` = 94 LIMIT 1
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`id` = 151 LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.4ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 151 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`game_id` = 94 AND (`players`.`id` != 151) ORDER BY `players`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.3ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 150 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  Rendered game/shared/_current_player.html.erb (0.2ms)
+  Rendered game/shared/_adversary_player_case2.html.erb (0.7ms)
+  Rendered game/show.html.erb within layouts/application (2.6ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.4ms)
+Completed 200 OK in 24ms (Views: 12.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:32:20 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+Processing by GameController#new as HTML
+  [1m[36mGameAct Load (0.3ms)[0m  [1mSELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000[0m
+  Rendered game/new.html.erb within layouts/application (2.1ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:34:00 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:34:04 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5IY2QPpwhN6w3qQ1SvqoxXun62E7c+oNDLvNwQk2y4s=", "game"=>{"name"=>"e75cb296d07d6c5fc3ee"}, "adversary_game"=>"", "player_moves"=>"R,R,R,R,R,P,P,P,P,P,"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `games` (`created_at`, `name`, `updated_at`) VALUES ('2014-05-02 09:34:04', 'e75cb296d07d6c5fc3ee', '2014-05-02 09:34:04')[0m
+  [1m[35m (16.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:34:04', 95, 'ce7a0e5987af861e99e2', '2014-05-02 09:34:04')
+  [1m[36m (15.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:34:04', 'R,R,R,R,R,P,P,P,P,P,', 152, '2014-05-02 09:34:04')[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/game/95?is_waiting=true&player_id=152
+Completed 302 Found in 39ms (ActiveRecord: 33.2ms)
+
+
+Started GET "/game/95?is_waiting=true&player_id=152" for 127.0.0.1 at 2014-05-02 16:34:04 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"true", "player_id"=>"152", "id"=>"95"}
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`id` = 95 LIMIT 1[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`id` = 152 LIMIT 1
+  [1m[36mPlayerMove Load (0.2ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 152 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`game_id` = 95 AND (`players`.`id` != 152) ORDER BY `players`.`id` ASC LIMIT 1
+  Rendered game/shared/_current_player.html.erb (0.1ms)
+  Rendered game/shared/_adversary_player_case1.html.erb (0.0ms)
+  Rendered game/show.html.erb within layouts/application (1.2ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 9.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:34:05 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+Processing by GameController#new as HTML
+  [1m[36mGameAct Load (0.3ms)[0m  [1mSELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000[0m
+  Rendered game/new.html.erb within layouts/application (1.7ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:11 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeqvPZT2hSLhWCOf+giqrxAMxVTth5gIV2O+ujAkt48=", "game"=>{"name"=>"ab75a06a2d94748e4f00"}, "adversary_game"=>"e75cb296d07d6c5fc3ee", "player_moves"=>"P,P,P,P,P,R,R,R,R,R,"}
+  [1m[35mGame Load (0.4ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`name` = 'e75cb296d07d6c5fc3ee' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:34:16', 95, '64796793e5a87b95d1f4', '2014-05-02 09:34:16')
+  [1m[36m (15.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:34:16', 'P,P,P,P,P,R,R,R,R,R,', 153, '2014-05-02 09:34:16')[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/game/95?is_waiting=false&player_id=153
+Completed 302 Found in 22ms (ActiveRecord: 17.3ms)
+
+
+Started GET "/game/95?is_waiting=false&player_id=153" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"false", "player_id"=>"153", "id"=>"95"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`id` = 95 LIMIT 1[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`id` = 153 LIMIT 1
+  [1m[36mPlayerMove Load (0.2ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 153 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`game_id` = 95 AND (`players`.`id` != 153) ORDER BY `players`.`id` ASC LIMIT 1
+  [1m[36mPlayerMove Load (0.2ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 152 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  Rendered game/shared/_current_player.html.erb (0.2ms)
+  Rendered game/shared/_adversary_player_case2.html.erb (0.2ms)
+  Rendered game/show.html.erb within layouts/application (1.5ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 20ms (Views: 10.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:16 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+Processing by GameController#new as HTML
+  [1m[35mGameAct Load (0.3ms)[0m  SELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000
+  Rendered game/new.html.erb within layouts/application (1.8ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 77ms (Views: 74.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:34:54 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5IY2QPpwhN6w3qQ1SvqoxXun62E7c+oNDLvNwQk2y4s=", "game"=>{"name"=>"9376ad71e10c03bf155f"}, "adversary_game"=>"", "player_moves"=>"R,R,R,R,R,P,P,P,R,R,"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `games` (`created_at`, `name`, `updated_at`) VALUES ('2014-05-02 09:34:59', '9376ad71e10c03bf155f', '2014-05-02 09:34:59')
+  [1m[36m (43.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:34:59', 96, 'f4ab808a2cd8f93ace24', '2014-05-02 09:34:59')[0m
+  [1m[35m (25.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:34:59', 'R,R,R,R,R,P,P,P,R,R,', 154, '2014-05-02 09:34:59')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/game/96?is_waiting=true&player_id=154
+Completed 302 Found in 76ms (ActiveRecord: 70.3ms)
+
+
+Started GET "/game/96?is_waiting=true&player_id=154" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"true", "player_id"=>"154", "id"=>"96"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`id` = 96 LIMIT 1
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`id` = 154 LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.3ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 154 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`game_id` = 96 AND (`players`.`id` != 154) ORDER BY `players`.`id` ASC LIMIT 1[0m
+  Rendered game/shared/_current_player.html.erb (0.2ms)
+  Rendered game/shared/_adversary_player_case1.html.erb (0.0ms)
+  Rendered game/show.html.erb within layouts/application (1.8ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 11.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:34:59 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+Processing by GameController#new as HTML
+  [1m[35mGameAct Load (0.3ms)[0m  SELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000
+  Rendered game/new.html.erb within layouts/application (1.8ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:02 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:03 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:03 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:03 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:03 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:03 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeqvPZT2hSLhWCOf+giqrxAMxVTth5gIV2O+ujAkt48=", "game"=>{"name"=>"eb352523277684a2e915"}, "adversary_game"=>"9376ad71e10c03bf155f", "player_moves"=>"S,S,S,S,S,P,S,S,S,S,"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`name` = '9376ad71e10c03bf155f' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:35:11', 96, '54d74a30cb06c9ff1786', '2014-05-02 09:35:11')[0m
+  [1m[35m (15.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:35:11', 'S,S,S,S,S,P,S,S,S,S,', 155, '2014-05-02 09:35:11')
+  [1m[36m (15.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/game/96?is_waiting=false&player_id=155
+Completed 302 Found in 37ms (ActiveRecord: 31.9ms)
+
+
+Started GET "/game/96?is_waiting=false&player_id=155" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"false", "player_id"=>"155", "id"=>"96"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`id` = 96 LIMIT 1
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`id` = 155 LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.2ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 155 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`game_id` = 96 AND (`players`.`id` != 155) ORDER BY `players`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.3ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 154 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  Rendered game/shared/_current_player.html.erb (0.3ms)
+  Rendered game/shared/_adversary_player_case2.html.erb (0.2ms)
+  Rendered game/show.html.erb within layouts/application (2.3ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 22ms (Views: 13.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:11 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+Processing by GameController#new as HTML
+  [1m[36mGameAct Load (0.3ms)[0m  [1mSELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000[0m
+  Rendered game/new.html.erb within layouts/application (1.8ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 54ms (Views: 51.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:57 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:35:58 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5IY2QPpwhN6w3qQ1SvqoxXun62E7c+oNDLvNwQk2y4s=", "game"=>{"name"=>"bacdae0cf43c66120cc4"}, "adversary_game"=>"", "player_moves"=>"R,R,R,R,R,R,P,P,P,P,"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `games` (`created_at`, `name`, `updated_at`) VALUES ('2014-05-02 09:36:02', 'bacdae0cf43c66120cc4', '2014-05-02 09:36:02')[0m
+  [1m[35m (15.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:36:02', 97, '2081ae2f0072a64b8cfd', '2014-05-02 09:36:02')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:36:02', 'R,R,R,R,R,R,P,P,P,P,', 156, '2014-05-02 09:36:02')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/game/97?is_waiting=true&player_id=156
+Completed 302 Found in 24ms (ActiveRecord: 17.5ms)
+
+
+Started GET "/game/97?is_waiting=true&player_id=156" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"true", "player_id"=>"156", "id"=>"97"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`id` = 97 LIMIT 1[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`id` = 156 LIMIT 1
+  [1m[36mPlayerMove Load (0.4ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 156 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`game_id` = 97 AND (`players`.`id` != 156) ORDER BY `players`.`id` ASC LIMIT 1
+  Rendered game/shared/_current_player.html.erb (0.2ms)
+  Rendered game/shared/_adversary_player_case1.html.erb (0.0ms)
+  Rendered game/show.html.erb within layouts/application (1.4ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 10.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:36:02 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+Processing by GameController#new as HTML
+  [1m[36mGameAct Load (0.3ms)[0m  [1mSELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000[0m
+  Rendered game/new.html.erb within layouts/application (1.7ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:06 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeqvPZT2hSLhWCOf+giqrxAMxVTth5gIV2O+ujAkt48=", "game"=>{"name"=>"43bab526fa8131965970"}, "adversary_game"=>"bacdae0cf43c66120cc4", "player_moves"=>"P,P,P,P,P,P,R,R,R,R,"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`name` = 'bacdae0cf43c66120cc4' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:36:10', 97, '8a929bcf097cde5575be', '2014-05-02 09:36:10')
+  [1m[36m (15.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:36:10', 'P,P,P,P,P,P,R,R,R,R,', 157, '2014-05-02 09:36:10')[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/game/97?is_waiting=false&player_id=157
+Completed 302 Found in 22ms (ActiveRecord: 17.0ms)
+
+
+Started GET "/game/97?is_waiting=false&player_id=157" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"false", "player_id"=>"157", "id"=>"97"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`id` = 97 LIMIT 1[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`id` = 157 LIMIT 1
+  [1m[36mPlayerMove Load (0.2ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 157 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`game_id` = 97 AND (`players`.`id` != 157) ORDER BY `players`.`id` ASC LIMIT 1
+  [1m[36mPlayerMove Load (0.3ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 156 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  Rendered game/shared/_current_player.html.erb (0.2ms)
+  Rendered game/shared/_adversary_player_case2.html.erb (0.1ms)
+  Rendered game/show.html.erb within layouts/application (1.5ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 10.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:36:10 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+Processing by GameController#new as HTML
+  [1m[35mGameAct Load (0.3ms)[0m  SELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000
+  Rendered game/new.html.erb within layouts/application (1.6ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 80ms (Views: 77.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:37:00 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5IY2QPpwhN6w3qQ1SvqoxXun62E7c+oNDLvNwQk2y4s=", "game"=>{"name"=>"7e49d36747cae742c85b"}, "adversary_game"=>"", "player_moves"=>"R,R,R,R,R,R,P,P,P,P,"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `games` (`created_at`, `name`, `updated_at`) VALUES ('2014-05-02 09:37:04', '7e49d36747cae742c85b', '2014-05-02 09:37:04')
+  [1m[36m (15.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:37:04', 98, '179e66cfd065b8511a8c', '2014-05-02 09:37:04')[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:37:04', 'R,R,R,R,R,R,P,P,P,P,', 158, '2014-05-02 09:37:04')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/game/98?is_waiting=true&player_id=158
+Completed 302 Found in 24ms (ActiveRecord: 17.6ms)
+
+
+Started GET "/game/98?is_waiting=true&player_id=158" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"true", "player_id"=>"158", "id"=>"98"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`id` = 98 LIMIT 1
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`id` = 158 LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.3ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 158 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`game_id` = 98 AND (`players`.`id` != 158) ORDER BY `players`.`id` ASC LIMIT 1[0m
+  Rendered game/shared/_current_player.html.erb (0.1ms)
+  Rendered game/shared/_adversary_player_case1.html.erb (0.0ms)
+  Rendered game/show.html.erb within layouts/application (1.2ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 15ms (Views: 9.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:37:04 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+Processing by GameController#new as HTML
+  [1m[35mGameAct Load (0.3ms)[0m  SELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000
+  Rendered game/new.html.erb within layouts/application (1.7ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:08 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:37:12 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeqvPZT2hSLhWCOf+giqrxAMxVTth5gIV2O+ujAkt48=", "game"=>{"name"=>"431c3ea128a549e4d941"}, "adversary_game"=>"7e49d36747cae742c85b", "player_moves"=>"P,P,P,P,P,P,R,R,R,R,"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`name` = '7e49d36747cae742c85b' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:37:12', 98, '031c472c5f754c090f77', '2014-05-02 09:37:12')[0m
+  [1m[35m (16.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:37:12', 'P,P,P,P,P,P,R,R,R,R,', 159, '2014-05-02 09:37:12')
+  [1m[36m (15.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/game/98?is_waiting=false&player_id=159
+Completed 302 Found in 37ms (ActiveRecord: 32.7ms)
+
+
+Started GET "/game/98?is_waiting=false&player_id=159" for 127.0.0.1 at 2014-05-02 16:37:12 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"false", "player_id"=>"159", "id"=>"98"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`id` = 98 LIMIT 1
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`id` = 159 LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.2ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 159 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`game_id` = 98 AND (`players`.`id` != 159) ORDER BY `players`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.2ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 158 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  Rendered game/shared/_current_player.html.erb (0.2ms)
+  Rendered game/shared/_adversary_player_case2.html.erb (0.2ms)
+  Rendered game/show.html.erb within layouts/application (1.5ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 11.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:12 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:12 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:37:12 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:37:13 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:37:59 +0700
+Processing by GameController#new as HTML
+  [1m[36mGameAct Load (0.3ms)[0m  [1mSELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000[0m
+  Rendered game/new.html.erb within layouts/application (1.8ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:38:00 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5IY2QPpwhN6w3qQ1SvqoxXun62E7c+oNDLvNwQk2y4s=", "game"=>{"name"=>"e987ad9c514e61514879"}, "adversary_game"=>"", "player_moves"=>"R,R,R,R,R,R,P,P,P,P,"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `games` (`created_at`, `name`, `updated_at`) VALUES ('2014-05-02 09:38:04', 'e987ad9c514e61514879', '2014-05-02 09:38:04')[0m
+  [1m[35m (15.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:38:04', 99, 'e06b3fcb39bd8f870d22', '2014-05-02 09:38:04')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:38:04', 'R,R,R,R,R,R,P,P,P,P,', 160, '2014-05-02 09:38:04')[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/game/99?is_waiting=true&player_id=160
+Completed 302 Found in 22ms (ActiveRecord: 17.1ms)
+
+
+Started GET "/game/99?is_waiting=true&player_id=160" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"true", "player_id"=>"160", "id"=>"99"}
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`id` = 99 LIMIT 1[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`id` = 160 LIMIT 1
+  [1m[36mPlayerMove Load (0.2ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 160 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`game_id` = 99 AND (`players`.`id` != 160) ORDER BY `players`.`id` ASC LIMIT 1
+  Rendered game/shared/_current_player.html.erb (0.1ms)
+  Rendered game/shared/_adversary_player_case1.html.erb (0.0ms)
+  Rendered game/show.html.erb within layouts/application (1.2ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.3ms)
+Completed 200 OK in 16ms (Views: 10.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:38:04 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+Processing by GameController#new as HTML
+  [1m[36mGameAct Load (0.3ms)[0m  [1mSELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000[0m
+  Rendered game/new.html.erb within layouts/application (1.7ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:10 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeqvPZT2hSLhWCOf+giqrxAMxVTth5gIV2O+ujAkt48=", "game"=>{"name"=>"2b475372586bb610d9a6"}, "adversary_game"=>"e987ad9c514e61514879", "player_moves"=>"P,P,P,P,P,P,R,R,R,R,"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`name` = 'e987ad9c514e61514879' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:38:17', 99, '3cc5401dc07b85b316a7', '2014-05-02 09:38:17')
+  [1m[36m (15.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:38:17', 'P,P,P,P,P,P,R,R,R,R,', 161, '2014-05-02 09:38:17')[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/game/99?is_waiting=false&player_id=161
+Completed 302 Found in 22ms (ActiveRecord: 17.0ms)
+
+
+Started GET "/game/99?is_waiting=false&player_id=161" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"false", "player_id"=>"161", "id"=>"99"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`id` = 99 LIMIT 1[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`id` = 161 LIMIT 1
+  [1m[36mPlayerMove Load (0.4ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 161 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT `players`.* FROM `players` WHERE `players`.`game_id` = 99 AND (`players`.`id` != 161) ORDER BY `players`.`id` ASC LIMIT 1
+  [1m[36mPlayerMove Load (0.3ms)[0m  [1mSELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 160 ORDER BY `player_moves`.`id` ASC LIMIT 1[0m
+  Rendered game/shared/_current_player.html.erb (0.2ms)
+  Rendered game/shared/_adversary_player_case2.html.erb (0.2ms)
+  Rendered game/show.html.erb within layouts/application (1.5ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.4ms)
+Completed 200 OK in 20ms (Views: 10.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:38:17 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:46:23 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GameController#new as HTML
+  [1m[35mGameAct Load (0.2ms)[0m  SELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000
+  Rendered game/new.html.erb within layouts/application (39.8ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.6ms)
+Completed 200 OK in 216ms (Views: 176.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:23 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:23 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:23 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:23 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:23 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:46:24 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5IY2QPpwhN6w3qQ1SvqoxXun62E7c+oNDLvNwQk2y4s=", "game"=>{"name"=>"5b9612e0e43de6b507ec"}, "adversary_game"=>"", "player_moves"=>"Rock,Rock,Rock,Rock,Rock,Paper,Paper,Paper,Paper,Paper,"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO `games` (`created_at`, `name`, `updated_at`) VALUES ('2014-05-02 09:46:30', '5b9612e0e43de6b507ec', '2014-05-02 09:46:30')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:46:30', 100, '237757f9375fecc2ec53', '2014-05-02 09:46:30')[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:46:30', 'Rock,Rock,Rock,Rock,Rock,Paper,Paper,Paper,Paper,Paper,', 162, '2014-05-02 09:46:30')
+  [1m[36m (12.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/game/100?is_waiting=true&player_id=162
+Completed 302 Found in 82ms (ActiveRecord: 19.2ms)
+
+
+Started GET "/game/100?is_waiting=true&player_id=162" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"true", "player_id"=>"162", "id"=>"100"}
+  [1m[35mGame Load (0.5ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`id` = 100 LIMIT 1
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`id` = 162 LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.3ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 162 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`game_id` = 100 AND (`players`.`id` != 162) ORDER BY `players`.`id` ASC LIMIT 1[0m
+  Rendered game/shared/_current_player.html.erb (0.6ms)
+  Rendered game/shared/_adversary_player_case1.html.erb (0.3ms)
+  Rendered game/show.html.erb within layouts/application (2.6ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 11.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/assets/twitter/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-05-02 16:46:30 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+Processing by GameController#new as HTML
+  [1m[35mGameAct Load (0.3ms)[0m  SELECT `game_acts`.* FROM `game_acts` ORDER BY `game_acts`.`id` ASC LIMIT 1000
+  Rendered game/new.html.erb within layouts/application (2.1ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:35 +0700
+
+
+Started POST "/game" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+Processing by GameController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeqvPZT2hSLhWCOf+giqrxAMxVTth5gIV2O+ujAkt48=", "game"=>{"name"=>"a29bd6079f06e1178da7"}, "adversary_game"=>"5b9612e0e43de6b507ec", "player_moves"=>"Paper,Paper,Paper,Paper,Paper,Rock,Rock,Rock,Rock,Rock,"}
+  [1m[36mGame Load (0.4ms)[0m  [1mSELECT `games`.* FROM `games` WHERE `games`.`name` = '5b9612e0e43de6b507ec' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `players` (`created_at`, `game_id`, `name`, `updated_at`) VALUES ('2014-05-02 09:46:39', 100, 'caf315b4efa9780d1668', '2014-05-02 09:46:39')[0m
+  [1m[35m (30.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `player_moves` (`created_at`, `moves`, `player_id`, `updated_at`) VALUES ('2014-05-02 09:46:39', 'Paper,Paper,Paper,Paper,Paper,Rock,Rock,Rock,Rock,Rock,', 163, '2014-05-02 09:46:39')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/game/100?is_waiting=false&player_id=163
+Completed 302 Found in 37ms (ActiveRecord: 32.1ms)
+
+
+Started GET "/game/100?is_waiting=false&player_id=163" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+Processing by GameController#show as HTML
+  Parameters: {"is_waiting"=>"false", "player_id"=>"163", "id"=>"100"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT `games`.* FROM `games` WHERE `games`.`id` = 100 LIMIT 1
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`id` = 163 LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.2ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 163 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT `players`.* FROM `players` WHERE `players`.`game_id` = 100 AND (`players`.`id` != 163) ORDER BY `players`.`id` ASC LIMIT 1[0m
+  [1m[35mPlayerMove Load (0.2ms)[0m  SELECT `player_moves`.* FROM `player_moves` WHERE `player_moves`.`player_id` = 162 ORDER BY `player_moves`.`id` ASC LIMIT 1
+  Rendered game/shared/_current_player.html.erb (0.2ms)
+  Rendered game/shared/_adversary_player_case2.html.erb (0.7ms)
+  Rendered game/show.html.erb within layouts/application (2.3ms)
+  Rendered /Users/dannybrown/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems/paloma-967fe8aeeaf7/app/views/paloma/_hook.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 68.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/game.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/paloma/controller_builder.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/paloma/game.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-02 16:46:39 +0700

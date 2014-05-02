@@ -8,7 +8,7 @@ GameController.prototype.new = function() {
     });
     $(document).on("click", ".game_acts", function(e) {
         if ($('.list-group-item').length < 10) {
-            $('#moves').append($(this).data("act") + ",");
+            $('#moves').append($(this).data("name") + ",");
             $('#move_list').append("<li class='list-group-item'>" + $(this).data("name") + "</li>");
         }
         if ($('.list-group-item').length == 10){
@@ -19,7 +19,7 @@ GameController.prototype.new = function() {
 GameController.prototype.show = function() {
     var game_id = this.params['game_id'];
     var faye_path = this.params['faye_path'];
-
+    
     var game_area = "/game/" + game_id + "/combat";
     var faye = new Faye.Client(faye_path);
 
