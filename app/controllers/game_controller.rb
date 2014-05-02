@@ -1,9 +1,11 @@
 class GameController < ApplicationController
   def index
   end
+  
   def new
     @game = Game.new(:name => SecureRandom.hex(10))
   end
+  
   def create
     #specify whether user is waiting for adversary?
     is_waiting = true
@@ -17,13 +19,13 @@ class GameController < ApplicationController
     end
     if !@game.nil?
       @player = Player.create(:name => SecureRandom.hex(10), :game_id => @game.id, :moves => params[:player_moves])
-      #@moves = PlayerMove.create(:moves => params[:player_moves], :player_id => @player.id)
       redirect_to game_path(@game, :is_waiting => is_waiting, :player_id => @player.id)
     else
       flash[:message] = "This game #{params[:adversary_game]} is not valid!"
       redirect_to :action => "new"
     end
   end
+  
   def show
     @game = Game.find(params[:id])
     @current_player = Player.find(params[:player_id])
