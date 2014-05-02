@@ -25,7 +25,7 @@ GameController.prototype.show = function() {
 
     faye.subscribe(game_area, function(data) {
         if (data.status == "Win") {
-            $('#game_status').html("<h2>You loose</h2>");
+            $('#game_status').html("<h2>You lost</h2>... please head to the closest extermination point");
             $('#adversary_status').html("<h2>Your adversary win</h2>");
         } else if (data.status == "Loose") {
             $('#game_status').html("<h2>You win</h2>");

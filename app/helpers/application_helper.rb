@@ -14,7 +14,7 @@ module ApplicationHelper
       if @status == "Win"
         top_left = "<h2>You win</h2>"
       elsif @status == "Loose"
-        top_left = "<h2>You loose</h2>"
+        top_left = "<h2>You lost</h2>... please head to the closest extermination point"
       else
         top_left = "<h2>Tie</h2>"
       end
