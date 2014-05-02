@@ -24,7 +24,6 @@ GameController.prototype.show = function() {
     var faye = new Faye.Client(faye_path);
 
     faye.subscribe(game_area, function(data) {
-        console.log("data.status == "+data.status);
         if (data.status == "Win") {
             $('#game_status').html("<h2>You loose</h2>");
             $('#adversary_status').html("<h2>Your adversary win</h2>");

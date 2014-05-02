@@ -16,8 +16,8 @@ class GameController < ApplicationController
       is_waiting = false
     end
     if !@game.nil?
-      @player = Player.create(:name => SecureRandom.hex(10), :game_id => @game.id)
-      @moves = PlayerMove.create(:moves => params[:player_moves], :player_id => @player.id)
+      @player = Player.create(:name => SecureRandom.hex(10), :game_id => @game.id, :moves => params[:player_moves])
+      #@moves = PlayerMove.create(:moves => params[:player_moves], :player_id => @player.id)
       redirect_to game_path(@game, :is_waiting => is_waiting, :player_id => @player.id)
     else
       flash[:message] = "This game #{params[:adversary_game]} is not valid!"
@@ -28,12 +28,12 @@ class GameController < ApplicationController
     @game = Game.find(params[:id])
     @current_player = Player.find(params[:player_id])
     
-    @current_player_moves_arr = @current_player.player_move.moves.split(",")
+    @current_player_moves_arr = @current_player.moves.split(",")
     @adversary = @game.players.where.not(:id => params[:player_id]).first
     
     @adversary_moves = nil
     if @adversary
-      @adversary_moves_arr = @adversary.player_move.moves.split(",")
+      @adversary_moves_arr = @adversary.moves.split(",")
       @result = []
       @current_player_moves_arr.each_with_index do |move, index|
         @result << GAME_RULE["#{move}#{@adversary_moves_arr[index]}"]
