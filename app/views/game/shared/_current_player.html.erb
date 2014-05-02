@@ -1,0 +1,17 @@
+<div class='col-md-6'>
+  <div class="container">
+    <div class="row" id='game_status'>
+      <%= raw top_left %>
+    </div>
+    <div class="row">
+      <label>Game UUID</label>
+      <span>
+        <input name="game_uuid" type="text" value="<%= @game.name %>" readonly>
+      </span>
+    </div>
+    <div class="row">
+      <textarea readonly id="moves" class="player_moves" name="player_moves"><%= @current_player_moves %></textarea>
+    </div>
+  </div>
+
+</div>

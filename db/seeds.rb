@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+GameAct.create(name: 'Rock', short_name: 'R')
+GameAct.create(name: 'Paper', short_name: 'P')
+GameAct.create(name: 'Scissors', short_name: 'S')
+GameAct.create(name: 'Lizard', short_name: 'L')
+GameAct.create(name: 'Spock', short_name: 'Sp')

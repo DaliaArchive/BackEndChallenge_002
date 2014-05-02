@@ -26,4 +26,9 @@ BackEndChallenge002::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+  
+  #This constant is different for different environment
+  FAYE_PATH = {
+    :url => "http://localhost:9292",
+  }
 end
