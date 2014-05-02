@@ -48,24 +48,28 @@ class GameController < ApplicationController
       #NOTE: status==true, then  adversary loose
       @status = true if @win.size > @loose.size
 
-      message = {
-        :channel => "/game/#{@game.id}/combat",
-        :ext => {:auth_token => FAYE_TOKEN},
-        :data => {
-          :adversary_moves => @current_player_moves_arr,
-          :waiter_moves => @adversary_moves_arr,
-          :result => @result,
-          :status => !@status
-        }
-      }
-      
-      uri = URI.parse("#{FAYE_PATH[:url]}/faye")
-      Net::HTTP.post_form(uri, :message => message.to_json)
+      send_to_faye
     end
     if @game 
       js :game_id => @game.id, :type => params[:is_waiting], :faye_path => "#{FAYE_PATH[:url]}/faye"
     else
       redirect_to :action => "new"
     end
+  end
+  private
+  def send_to_faye
+    message = {
+      :channel => "/game/#{@game.id}/combat",
+      :ext => {:auth_token => FAYE_TOKEN},
+      :data => {
+        :adversary_moves => @current_player_moves_arr,
+        :waiter_moves => @adversary_moves_arr,
+        :result => @result,
+        :status => !@status
+      }
+    }
+      
+    uri = URI.parse("#{FAYE_PATH[:url]}/faye")
+    Net::HTTP.post_form(uri, :message => message.to_json)
   end
 end
