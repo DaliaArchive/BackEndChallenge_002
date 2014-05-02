@@ -27,15 +27,13 @@ class GameController < ApplicationController
   
   def show
     @game = Game.find(params[:id])
-    @current_player = Player.find(params[:player_id])
-    
-    @current_player_moves_arr = @current_player.moves.split(",")
-    adversary = @game.players.where.not(:id => params[:player_id]).first
-    
-    if adversary
-      game_combat(adversary)
-    end
     if @game 
+      @current_player = Player.find(params[:player_id])
+      @current_player_moves_arr = @current_player.moves.split(",")
+      adversary = @game.players.where.not(:id => params[:player_id]).first
+      if adversary
+        game_combat(adversary)
+      end
       js :game_id => @game.id, :type => params[:is_waiting], :faye_path => "#{FAYE_PATH[:url]}/faye"
     else
       redirect_to :action => "new"
