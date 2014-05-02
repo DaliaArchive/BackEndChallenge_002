@@ -24,10 +24,15 @@
         </span>
       </div>
       <div class="row">
-        <textarea id="moves" class="player_moves" name="player_moves"></textarea>
+        <button type="button" id="reset_moves">Reset</button>
       </div>
       <div class="row">
-        <button>Fight</button>
+        <textarea id="moves" class="player_moves" name="player_moves"></textarea>
+        <ul class="list-group" id="move_list">
+        </ul>
+      </div>
+      <div class="row">
+        <button class="fight_btn" id="fight_button">Fight</button>
       </div>
     <% end %>
   </div>
@@ -35,7 +40,7 @@
 </div>
 <div class='col-md-6'>
   <div class="container adversary_move">
-    
+
   </div>
 
 </div>

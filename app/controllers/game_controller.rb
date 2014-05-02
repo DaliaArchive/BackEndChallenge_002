@@ -37,20 +37,16 @@ class GameController < ApplicationController
     if @adversary
       @adversary_moves = @adversary.player_move.moves
       @adversary_moves_arr = @adversary_moves.split(",")
-      combine = []
+      @result = []
       @current_player_moves_arr.each_with_index do |move, index|
-        #combine << "#{move}#{adversary_moves[index]}"
-        combine << GAME_RULE["#{move}#{@adversary_moves[index]}"]
+        @result << GAME_RULE["#{move}#{@adversary_moves[index]}"]
       end
 
-      win = []
-      loose = []
-      win = combine.select {|p| p == "W"}
-      loose = combine.select {|p| p == "L"}
+      win = @result.select {|p| p == "W"}
+      loose = @result.select {|p| p == "L"}
       
-      if win.size > loose.size
-        @status = true #mean adversary loose
-      end
+      #NOTE: status==true, then  adversary loose
+      @status = true if win.size > loose.size
 
       message = {
         :channel => "/game/#{@game.id}/combat",
