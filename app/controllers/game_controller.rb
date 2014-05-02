@@ -11,8 +11,7 @@ class GameController < ApplicationController
     is_waiting = true
     if params[:adversary_game].blank?
       obj_params = params.require(:game).permit(:name)
-      @game = Game.new(obj_params)
-      @game.save
+      @game = Game.create(obj_params)
     else
       @game = Game.find_by_name(params[:adversary_game])
       is_waiting = false
@@ -64,6 +63,7 @@ class GameController < ApplicationController
     end
     send_to_faye
   end
+  
   def send_to_faye
     message = {
       :channel => "/game/#{@game.id}/combat",
