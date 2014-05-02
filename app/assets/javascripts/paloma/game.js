@@ -46,8 +46,11 @@ GameController.prototype.show = function() {
             }
             $('#move_list').append("<li class='list-group-item "+iwin+"'>"+data.waiter_moves[i]+"</li>");
         }
-        
         $('.adversary_move').show();
+        var left_win = $('#move_list').find('li.win').length;
+        $('#move_list').after("<h2>"+left_win+"</h2>");
+        var right_win = $('#adversary_moves').find('li.win').length;
+        $('#adversary_moves').after("<h2>"+right_win+"</h2>");
     });
 
 }

@@ -11,15 +11,14 @@
     </div>
     <div class="row">
       <ul class="list-group" id="adversary_moves">
-        <ul class="list-group" id="move_list">
-          <% @result.each_with_index do |item, i| %>
-            <% iwin = (item=="L" ? "win" : "") %>
-            <li class="list-group-item <%= iwin %>">
-              <%= @adversary_moves_arr[i] %>
-            </li>
-          <% end %>
-        </ul>
+        <% @result.each_with_index do |item, i| %>
+          <% iwin = (item=="L" ? "win" : "") %>
+          <li class="list-group-item <%= iwin %>">
+            <%= @adversary_moves_arr[i] %>
+          </li>
+        <% end %>
       </ul>
+      <h2><%= @loose.size %></h2>
     </div>
   </div>
 
