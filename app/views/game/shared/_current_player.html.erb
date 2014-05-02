@@ -9,8 +9,26 @@
         <input name="game_uuid" type="text" value="<%= @game.name %>" readonly>
       </span>
     </div>
-    <div class="row">
-      <textarea readonly id="moves" class="selected_moves" name="player_moves"><%= @current_player_moves %></textarea>
+    <div class="row left">
+      <% if @result %>
+        <ul class="list-group" id="move_list">
+          <% @result.each_with_index do |item, i| %>
+            <% iwin = (item=="W" ? "win" : "") %>
+            <li class="list-group-item <%= iwin %>">
+              <%= @current_player_moves_arr[i] %>
+            </li>
+          <% end %>
+        </ul>
+      <% else %>
+        <ul class="list-group" id="move_list">
+          <% @current_player_moves_arr.each do |item| %>
+
+            <li class="list-group-item">
+              <%= item %>
+            </li>
+          <% end %>
+        </ul>
+      <% end %>
     </div>
   </div>
 

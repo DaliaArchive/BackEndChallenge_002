@@ -39,8 +39,24 @@ class GameController < ApplicationController
       @adversary_moves_arr = @adversary_moves.split(",")
       @result = []
       @current_player_moves_arr.each_with_index do |move, index|
-        @result << GAME_RULE["#{move}#{@adversary_moves[index]}"]
+        puts "move == #{move}"
+        puts "other half == #{@adversary_moves_arr[index]}"
+        
+        puts "value of kye == #{move}#{@adversary_moves_arr[index]}"
+        
+        puts "value of mapping == "+GAME_RULE["#{move}#{@adversary_moves_arr[index]}"]
+        @result << GAME_RULE["#{move}#{@adversary_moves_arr[index]}"]
       end
+      puts "**"
+      puts "**"
+      puts "**"
+      puts "**"
+      puts "**"
+      puts "**"
+      puts "**"
+      puts "**"
+      puts "**v = "
+      puts "**v = #{@result}"
 
       win = @result.select {|p| p == "W"}
       loose = @result.select {|p| p == "L"}
@@ -52,8 +68,9 @@ class GameController < ApplicationController
         :channel => "/game/#{@game.id}/combat",
         :ext => {:auth_token => FAYE_TOKEN},
         :data => {
-          :adversary_id => @adversary.id,
-          :content => @current_player_moves,
+          :adversary_moves => @current_player_moves_arr,
+          :waiter_moves => @adversary_moves_arr,
+          :result => @result,
           :status => !@status
         }
       }

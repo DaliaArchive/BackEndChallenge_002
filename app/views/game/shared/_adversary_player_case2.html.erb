@@ -10,7 +10,16 @@
       </span>
     </div>
     <div class="row">
-      <textarea readonly id="adversary_moves" class="selected_moves" name="adversary_moves"><%= @adversary_moves %></textarea>
+      <ul class="list-group" id="adversary_moves">
+        <ul class="list-group" id="move_list">
+          <% @result.each_with_index do |item, i| %>
+            <% iwin = (item=="L" ? "win" : "") %>
+            <li class="list-group-item <%= iwin %>">
+              <%= @adversary_moves_arr[i] %>
+            </li>
+          <% end %>
+        </ul>
+      </ul>
     </div>
   </div>
 
