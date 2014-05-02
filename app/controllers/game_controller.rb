@@ -53,7 +53,6 @@ class GameController < ApplicationController
     @win = @result.select {|p| p == "W"}
     @loose = @result.select {|p| p == "L"}
       
-    @status = true if @win.size > @loose.size
     if @win.size == @loose.size
       @status = "Tie"
     elsif @win.size > @loose.size
