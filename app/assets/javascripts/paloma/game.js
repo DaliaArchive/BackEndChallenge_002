@@ -24,13 +24,16 @@ GameController.prototype.show = function() {
     var faye = new Faye.Client(faye_path);
 
     faye.subscribe(game_area, function(data) {
-        console.log(data);
-        if (!data.status) {
+        console.log("data.status == "+data.status);
+        if (data.status == "Win") {
             $('#game_status').html("<h2>You loose</h2>");
             $('#adversary_status').html("<h2>Your adversary win</h2>");
-        } else {
+        } else if (data.status == "Loose") {
             $('#game_status').html("<h2>You win</h2>");
             $('#adversary_status').html("<h2>Your adversary loose</h2>");
+        } else {
+            $('#game_status').html("<h2>Tie</h2>");
+            $('#adversary_status').html("<h2>Tie</h2>");
         }
         $('#move_list').html("");
         for (var i=0;i< data.result.length;i++){

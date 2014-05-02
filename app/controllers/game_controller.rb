@@ -45,8 +45,14 @@ class GameController < ApplicationController
       @win = @result.select {|p| p == "W"}
       @loose = @result.select {|p| p == "L"}
       
-      #NOTE: status==true, then  adversary loose
       @status = true if @win.size > @loose.size
+      if @win.size == @loose.size
+        @status = "Tie"
+      elsif @win.size > @loose.size
+        @status = "Win"
+      else
+        @status = "Loose"
+      end
 
       send_to_faye
     end
@@ -65,7 +71,7 @@ class GameController < ApplicationController
         :adversary_moves => @current_player_moves_arr,
         :waiter_moves => @adversary_moves_arr,
         :result => @result,
-        :status => !@status
+        :status => @status
       }
     }
       

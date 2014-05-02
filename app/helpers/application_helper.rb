@@ -11,19 +11,23 @@ module ApplicationHelper
     if params[:is_waiting] == "true"
       top_left = "<h2>Waiting for adversary</h2>"
     else
-      if @status
+      if @status == "Win"
         top_left = "<h2>You win</h2>"
-      else
+      elsif @status == "Loose"
         top_left = "<h2>You loose</h2>"
+      else
+        top_left = "<h2>Tie</h2>"
       end
     end
     render :partial => "/game/shared/current_player", :locals => {:top_left => top_left}
   end
   def adversary_player(params)
-    if @status 
+    if @status == "Win"
       top_right = "<h2>Your adversary loose</h2>"
-    else 
+    elsif @status == "Loose"
       top_right = "<h2>Your adversary win</h2>"
+    else 
+      top_right = "<h2>Tie</h2>"
     end 
     
     if params[:is_waiting]=="true"
