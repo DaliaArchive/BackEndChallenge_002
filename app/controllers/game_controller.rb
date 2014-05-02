@@ -28,14 +28,12 @@ class GameController < ApplicationController
     @game = Game.find(params[:id])
     @current_player = Player.find(params[:player_id])
     
-    @current_player_moves = @current_player.player_move.moves
-    @current_player_moves_arr = @current_player_moves.split(",")
+    @current_player_moves_arr = @current_player.player_move.moves.split(",")
     @adversary = @game.players.where.not(:id => params[:player_id]).first
     
     @adversary_moves = nil
     if @adversary
-      @adversary_moves = @adversary.player_move.moves
-      @adversary_moves_arr = @adversary_moves.split(",")
+      @adversary_moves_arr = @adversary.player_move.moves.split(",")
       @result = []
       @current_player_moves_arr.each_with_index do |move, index|
         @result << GAME_RULE["#{move}#{@adversary_moves_arr[index]}"]
