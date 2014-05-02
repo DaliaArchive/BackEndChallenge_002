@@ -10,16 +10,8 @@
 # W is Win
 # L is Loose
 
-#GAME_RULE = {
-#  "RR"  => "T", "RP" => "L", "RS"  => "W", "RL"  => "W", "RSp"  => "L",
-#  "PR"  => "W", "PP"  => "T", "PS"  => "L", "PL"  => "L", "PSp"  => "W",
-#  "SR"  => "L", "SP"  => "W", "SS"  => "T", "SL"  => "W", "SSp"  => "L",
-#  "LR"  => "L", "LP"  => "W", "LS"  => "L", "LL"  => "T", "LSp" => "W",
-#  "SpR" => "W", "SpP" => "L", "SpS" => "W", "SpL" => "L", "SpSp" => "T"
-#}
-
 GAME_RULE = {
-  "RockRock"  => "T", "RockPPaper" => "L", "RockScissors"  => "W", "RockLizard"  => "W", "RockSpock"  => "L",
+  "RockRock"  => "T", "RockPaper" => "L", "RockScissors"  => "W", "RockLizard"  => "W", "RockSpock"  => "L",
   "PaperRock"  => "W", "PaperPaper"  => "T", "PaperScissors"  => "L", "PaperLizard"  => "L", "PaperSpock"  => "W",
   "ScissorsRock"  => "L", "ScissorsPaper"  => "W", "ScissorsScissors"  => "T", "ScissorsLizard"  => "W", "ScissorsSpock"  => "L",
   "LizardRock"  => "L", "LizardPaper"  => "W", "LizardScissors"  => "L", "LizardLizard"  => "T", "LizardSpock" => "W",
