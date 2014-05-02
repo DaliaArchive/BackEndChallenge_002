@@ -47,8 +47,6 @@ GameController.prototype.show = function() {
             $('#move_list').append("<li class='list-group-item "+iwin+"'>"+data.waiter_moves[i]+"</li>");
         }
         
-        
-        //$('#adversary_moves').val(data.content);
         $('.adversary_move').show();
     });
 
