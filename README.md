@@ -57,7 +57,7 @@ Both Players can see the results and prepare themselves for a long life or... im
 
 We know this project would typically employ a websocket based implementation, but this is excessive for the purpose of this challenge.
 
-_UPDATE_: We want to insist in not using a websockets (or any other _long time request_ implementation). Implementing a _multithread events system_ can look like a sexy demostration of your skills but if your implementation is not solid and has a good test coverage it will exhibit a lack of experience preventing possible risks. So let's do it easy but solid :)
+_UPDATE_: We want to insist in not using a websockets (or any other _long time request_ implementation). Implementing a _multithread events system_ can look like a sexy demostration of your skills but if your implementation is not solid and/or has not a good test coverage it will exhibit a lack of experience preventing possible risks. So let's do it easy but solid :)
 
 In the _Waiting for an adversary_ page you can just expose a _refresh!_ button so the Player can click on it to ask the system if there are already results for this Game.. or you can implement a _X seconds_ authomatically refresh.. or an _Ajax_ solution.
 
