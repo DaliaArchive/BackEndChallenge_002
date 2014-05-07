@@ -5,6 +5,7 @@ http://radiant-falls-6272.herokuapp.com/
 Requirements
 ========================
 Ruby 2.1
+PostgreSQL 9.1+
 
 Installation
 ========================
