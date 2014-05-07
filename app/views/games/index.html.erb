@@ -1,0 +1,9 @@
+<h3>Game list (Waiting for adversary)</h3>
+<% if @games.size.zero? %>
+    <span>No records</span>
+<% end %>
+<ul>
+  <% @games.each do |g| %>
+    <li><%= g.uuid %></li>
+  <% end %>
+</ul>

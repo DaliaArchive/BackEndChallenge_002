@@ -1,0 +1,32 @@
+Demo
+=======================
+http://radiant-falls-6272.herokuapp.com/
+
+Requirements
+========================
+Ruby 2.1
+
+Installation
+========================
+bundle install
+rake db:create:all
+rake db:migrate
+rails server
+
+Limitations
+=======================
+In order to simplify implementation let us assume both players will survive
+User can game with one game only
+User uniqueness is simplified with saving uuid to session.
+Acceptance tests are missing, because it of time limiting for task completion
+
+Testing
+=======================
+There are some unit tests for algorithms.
+
+```
+rake db:test:prepare
+rspec
+```
+
+Also, you can use 2 browsers for manual testing

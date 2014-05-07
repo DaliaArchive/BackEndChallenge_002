@@ -1,0 +1,12 @@
+<%= form_for @game, html: {role: 'form', "data-widget" => "Game"} do |f| %>
+    <%= render partial: 'shared/errors', locals: {model: @game} %>
+    <%= render partial: 'shared/game_uuid', locals: {uuid: @game.uuid} %>
+    <div class="form-group">
+      <% Game::MOVES_SIZE.times do |i| %>
+         <%= select_tag("game[#{field_name}][]", options_for_select(Move::LIST, f.object.send(field_name)[i]), include_blank: true, class: 'form_control input-sm') %>
+      <% end %>
+    </div>
+    <p>
+      <%= f.submit(submit_title(action), class: 'btn btn-success', disabled: 'disabled') %>
+    </p>
+<% end %>
