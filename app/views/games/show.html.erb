@@ -1,0 +1,5 @@
+<h3>Waiting for adversary...</h3>
+<%= render partial: 'shared/game_uuid', locals: {uuid: @game.uuid} %>
+<p>My move:</p>
+<%= render partial: 'move_list', locals: {moves: my_moves(@game)} %>
+<%= link_to "Refresh", game_path(@game), class: 'btn btn-primary' %>

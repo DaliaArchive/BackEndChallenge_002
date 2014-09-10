@@ -1,0 +1,22 @@
+<h3>Game result</h3>
+
+<% case @game_result.combat_result
+   when 1 then %>
+    <div class="alert alert-success"><strong>Congratulations!</strong> You won and may sleep peacefully</div>
+<% when 0 then %>
+    <div class="alert alert-warning"><strong>Warning!</strong> We could not determine of winner. You both will survive</div>
+<% when -1 then %>
+    <div class="alert alert-danger"><strong>You lost!</strong> Please head to the closest extermination point</div>
+<% end %>
+
+<%= render partial: 'shared/game_uuid', locals: {uuid: @game_result.uuid} %>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="row">
+      <%= render partial: 'move_list', locals: { moves_stat: @game_result.moves_stat, caption: 'My move', won_moves: @game_result.my_won_moves}%>
+      <%= render partial: 'move_list', locals: { moves_stat: @game_result.adversary_moves_stat, caption: 'Adversary move', won_moves: @game_result.adversary_won_moves}%>
+    </div>
+  </div>
+
+</div>

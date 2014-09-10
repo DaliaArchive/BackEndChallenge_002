@@ -1,0 +1,11 @@
+<div class="col-md-6">
+  <span><%= caption %></span>
+  <ul class="list-group">
+    <% moves_stat.each do |(move, res)| %>
+        <li class="list-group-item <%= 'list-group-item-success' if res%>"><%= move %></li>
+    <% end %>
+  </ul>
+  <div>
+    <span class="badge large-font-size"><%= won_moves %></span>
+  </div>
+</div>
