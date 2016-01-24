@@ -61,8 +61,8 @@ _UPDATE_: We want to insist in not using a websockets (or any other _long time r
 
 In the _Waiting for an adversary_ page you can just expose a _refresh!_ button so the Player can click on it to ask the system if there are already results for this Game.. or you can implement a _X seconds_ authomatically refresh.. or an _Ajax_ solution.
 
-- Please check the [wireframes](https://docs.google.com/drawings/d/1wM8Ex2zA7jUnGVicF8wqRLypkzr9QzdPCCZD1rhQhHQ/edit?usp=sharing)
-- Please check the [workflow diagram](https://docs.google.com/drawings/d/12aS34CFiJHVNm0uGAIzMnD7_dqKdkvLxy0ytJkanysM/edit?usp=sharing)
+- Please check the [wireframes](https://docs.google.com/drawings/d/1hVHbf5GiRe8C6Rvd3YB3FBypPBDUUuFsVLNDnwprf9Q/edit?usp=sharing)
+- Please check the [workflow diagram](https://docs.google.com/drawings/d/1dsFO68Y40XW680qBScVj4df1BarGfLjkAAHJ3HbPifQ/edit?usp=sharing)
 
 This _wireframes_ and _workflow diagram_ are a very minimal explanation, please feel free to add/remove/modify anything on your own.
 
