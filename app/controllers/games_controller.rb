@@ -2,10 +2,9 @@ class GamesController < ApplicationController
   def new
   end
 
-  def create
-  end
-
   def show
-    @game = {}
+    @game = Game.find(params[:id])
+  rescue ActiveRecord::RecordNotFound
+    return render plain: "Not found"
   end
 end

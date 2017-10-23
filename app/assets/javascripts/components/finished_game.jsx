@@ -1,4 +1,4 @@
-class NewGame extends React.Component {
+class FinishedGame extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -12,7 +12,7 @@ class NewGame extends React.Component {
       <p>Your personal status</p>
 
       <GameInfo gameId={props.gameId} />
-      <Combat movesSelf={state.movesSelf} movesAdversary={state.moves} />
+      <Combat movesSelf={props.movesSelf} movesAdversary={props.movesAdversary} />
     </div>
   }
 }
