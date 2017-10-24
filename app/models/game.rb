@@ -6,4 +6,9 @@ class Game < ApplicationRecord
     spock: 'spock',
     lizard: 'lizard',
   }
+
+  def switch!
+    self.moves_player_2, self.moves_player_1 = self.moves_player_1, self.moves_player_2
+    true
+  end
 end
