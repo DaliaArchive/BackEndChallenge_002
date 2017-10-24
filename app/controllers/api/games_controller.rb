@@ -1,6 +1,6 @@
 class Api::GamesController < ApiController
   def create
-    if game = Game.find_by_id(params[:game_id])
+    if params[:gameId].presence && game = Game.find_by_id(params[:gameId])
       return error "Game already finished" if game.moves_player_2
       game.moves_player_2 = params[:moves]
     else
