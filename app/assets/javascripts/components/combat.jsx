@@ -14,7 +14,6 @@ class Combat extends React.Component {
   }
 
   personalResult(selfWinCount, adversaryWinCount){
-    console.log('personal', selfWinCount, adversaryWinCount)
     if(selfWinCount > adversaryWinCount){
       return "You Won"
     } else if(selfWinCount < adversaryWinCount){
