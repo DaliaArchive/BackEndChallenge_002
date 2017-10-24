@@ -49,8 +49,8 @@ class Combat extends React.Component {
       { renderedMoves }
 
       <div className="combat-summary">
-        <div>{ selfWinCount }</div>
-        <div>{ adversaryWinCount }</div>
+        <div id="self-win-count">{ selfWinCount }</div>
+        <div id="adversary-win-count">{ adversaryWinCount }</div>
       </div>
     </div>
   }

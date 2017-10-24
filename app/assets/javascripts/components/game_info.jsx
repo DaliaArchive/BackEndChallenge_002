@@ -1,5 +1,5 @@
 const GameInfo = (props) => {
   return <div>
-    Game ID: <input type="text" value={props.gameId} readOnly />
+    Game ID: <input id="game-id-info" type="text" value={props.gameId} readOnly />
   </div>
 }
