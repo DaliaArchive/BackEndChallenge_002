@@ -13,6 +13,11 @@ h2 {
   margin-bottom: 0.2em;
 }
 
+h3 {
+  font-size: 100%;
+  margin: 0;
+}
+
 input {
   width: 280pt;
   max-width: 31vw;
@@ -76,9 +81,20 @@ button {
   background: #bbb;
 }
 
-.combat-moves {
+.combat-moves,
+.combat-summary {
   display: flex;
   & > * {
     width: 50%;
+    margin: 0.2em 1em;
   }
+}
+
+.winner {
+  border-bottom: 2px solid #0f0;
+}
+
+.combat-summary {
+  margin-top: 0.4em;
+  font-size: 30pt;
 }
