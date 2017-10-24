@@ -7,9 +7,11 @@ class WaitingGame extends React.Component {
     const props = this.props
 
     return <div>
-      <h2>Waiting for Adversary</h2>
+      <div className="game-intro">
+        <h2>Waiting for Adversary</h2>
+        <GameInfo gameId={props.gameId} />
+      </div>
 
-      <GameInfo gameId={props.gameId} />
       <MovesList moves={props.movesSelf} />
 
       <button onClick={props.refreshGameFn}>Refresh</button>

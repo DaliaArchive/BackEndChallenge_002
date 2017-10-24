@@ -7,11 +7,13 @@ class FinishedGame extends React.Component {
     const props = this.props
 
     return <div>
-      <h2>Game Over</h2>
+      <div className="game-intro">
+        <h2>Game Over</h2>
+        <p>Your personal status</p>
 
-      <p>Your personal status</p>
+        <GameInfo gameId={props.gameId} />
+      </div>
 
-      <GameInfo gameId={props.gameId} />
       <Combat movesSelf={props.movesSelf} movesAdversary={props.movesAdversary} />
     </div>
   }

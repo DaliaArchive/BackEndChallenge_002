@@ -1,4 +1,84 @@
-.move {
-  display: flex;
+body {
+  background: #eee;
 }
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 19pt;
+  line-height: 22pt;
+  margin: 0;
+  margin-bottom: 0.2em;
+}
+
+input {
+  width: 280pt;
+  max-width: 31vw;
+}
+
+button {
+  background: #f3f3f3;
+  border: 1px solid black;
+}
+
+.game {
+  text-align: center;
+  background: #ddd;
+  margin: 5vh auto;
+  width: 90vw;
+  &, button, input {
+    font-size: 14pt;
+    line-height: 18pt;
+    padding: 2pt 6pt;
+  }
+  & {
+    padding-bottom: 1em;
+  }
+}
+
+.game-intro {
+  background: #ccc;
+  margin: 1em;
+  padding: 1em;
+}
+
+.which-game-configurator {
+  display: flex;
+  margin: auto;
+  & > * {
+    width: 50%;
+  }
+}
+
+.move-configurator {
+  margin: 1em;
+}
+
+.move {
+  display: flex;
+  & > * {
+    width: 50%;
+    margin-bottom: 0.2em;
+    text-transform: capitalize;
+  }
+
+  button {
+    margin-right: 0.2em;
+  }
+}
+
+.game-content {
+  margin: 1em;
+  padding: 1em 0;
+  text-transform: capitalize;
+  background: #bbb;
+}
+
+.combat-moves {
+  display: flex;
+  & > * {
+    width: 50%;
+  }
+}

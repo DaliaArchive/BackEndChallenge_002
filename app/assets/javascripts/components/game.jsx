@@ -10,7 +10,6 @@ class Game extends React.Component {
   }
 
   createGame(moves, gameId){
-    console.log("game id", gameId)
     $.post("/api", {
       moves,
       gameId,
@@ -44,7 +43,7 @@ class Game extends React.Component {
   render(){
     const state = this.state
 
-    return <div>
+    return <div className="game">
       {
         !state.gameId ? <NewGame createGameFn={this.createGame.bind(this)} /> :
         !state.movesAdversary.length ? <WaitingGame gameId={state.gameId} movesSelf={state.movesSelf} refreshGameFn={this.refreshGame.bind(this)} /> :
