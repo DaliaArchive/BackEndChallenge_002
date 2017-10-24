@@ -11,7 +11,7 @@ Interview challenge for Dalia Research
 ## Setup
 
 - Make sure Ruby is installed in version 2.4 or higher
-- Create the postgres tables (see config/database.yml)
+- Create the postgres user with proper permissions (see config/database.yml)
 - Make sure you have a `.env` with the proper credentials (see below)
 - Run `bundle install`
 - Create dev DB: `$ rake db:create db:migrate`
